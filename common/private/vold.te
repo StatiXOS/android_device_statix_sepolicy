@@ -1,0 +1,3 @@
+# External EXT4/F2FS storage
+allow vold sdcard_posix:filesystem { relabelto relabelfrom };
+allow vold labeledfs:filesystem relabelfrom;
