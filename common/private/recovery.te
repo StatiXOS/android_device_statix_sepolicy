@@ -3,4 +3,6 @@ recovery_only(`
 # Sideload backuptool
 allow recovery self:process setexec;
 
+# Volume manager
+allow recovery self:netlink_kobject_uevent_socket create_socket_perms_no_ioctl;
 ')
