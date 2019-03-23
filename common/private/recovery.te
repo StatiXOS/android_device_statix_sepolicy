@@ -1,5 +1,8 @@
 recovery_only(`
 
+# Set system properties for various things
+set_prop(recovery, system_radio_prop)
+
 # Sideload backuptool
 allow recovery self:process setexec;
 
