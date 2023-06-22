@@ -1,2 +1,5 @@
-# Allow access to the HALs
+# Allow access to the touch HAL
 hal_client_domain(system_app, hal_lineage_touch)
+
+# Allow access to health HAL
+hal_client_domain(system_app, hal_lineage_health)
