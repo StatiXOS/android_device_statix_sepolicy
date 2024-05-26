@@ -6,3 +6,6 @@
 
 # Wi-Fi HAL
 /(vendor|system/vendor)/bin/hw/android\.hardware\.wifi@1\.0-service\.legacy u:object_r:hal_wifi_default_exec:s0
+
+# Power HAL
+/(vendor|system/vendor)/bin/hw/android\.hardware\.power-service\.statix-libperfmgr u:object_r:hal_power_default_exec:s0

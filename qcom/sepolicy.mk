@@ -15,5 +15,8 @@ BOARD_SEPOLICY_M4DEFS += \
     hal_perf_default=vendor_hal_perf_default \
     hal_perf_default_exec=vendor_hal_perf_default_exec \
     sysfs_battery_supply=vendor_sysfs_battery_supply \
-    sysfs_usb_supply=vendor_sysfs_usb_supply
+    sysfs_devfreq=vendor_sysfs_devfreq \
+    sysfs_usb_supply=vendor_sysfs_usb_supply \
+    sysfs_kgsl=vendor_sysfs_kgsl \
+    sysfs_scsi_host=vendor_sysfs_scsi_host
 endif
