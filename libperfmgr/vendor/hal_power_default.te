@@ -5,3 +5,13 @@ allow hal_power_default sysfs_devices_system_cpu:file rw_file_perms;
 
 # To get/set powerhal state property
 set_prop(hal_power_default, vendor_power_prop)
+
+# Powerhint nodes
+rw_dir_file(hal_power_default, proc_sched_energy_aware)
+rw_dir_file(hal_power_default, sysfs_devfreq)
+rw_dir_file(hal_power_default, sysfs_devfreq)
+rw_dir_file(hal_power_default, sysfs_graphics)
+rw_dir_file(hal_power_default, sysfs_kgsl)
+rw_dir_file(hal_power_default, sysfs_scsi_host)
+
+
