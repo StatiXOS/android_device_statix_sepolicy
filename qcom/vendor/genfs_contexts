@@ -1,1 +1,0 @@
-genfscon proc /sys/kernel/sched_energy_aware             u:object_r:proc_sched_energy_aware:s0
