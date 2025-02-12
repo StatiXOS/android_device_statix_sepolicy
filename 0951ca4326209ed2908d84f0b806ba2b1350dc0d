@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dca9cec5_dcf31818",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000125
+      },
+      "writtenOn": "2025-02-12T11:08:42Z",
+      "side": 1,
+      "message": "For some reason flipendo sepolicy is still installed to vendor partition...",
+      "revId": "0951ca4326209ed2908d84f0b806ba2b1350dc0d",
+      "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
+    }
+  ]
+}
