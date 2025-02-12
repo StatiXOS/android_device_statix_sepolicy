@@ -10,7 +10,8 @@ endif
 endif
 
 SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += \
-    device/statix/sepolicy/common/public
+    device/statix/sepolicy/common/public \
+    hardware/google/pixel-sepolicy/turbo_adapter/public
 
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
     device/statix/sepolicy/common/private
@@ -19,11 +20,11 @@ ifeq ($(TARGET_USES_PREBUILT_VENDOR_SEPOLICY), true)
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
     device/statix/sepolicy/common/dynamic \
     hardware/google/pixel-sepolicy/flipendo \
-    hardware/google/pixel-sepolicy/turbo_adapter
+    hardware/google/pixel-sepolicy/turbo_adapter/private
 else
 BOARD_VENDOR_SEPOLICY_DIRS += \
     device/statix/sepolicy/common/dynamic \
     device/statix/sepolicy/common/vendor \
     hardware/google/pixel-sepolicy/flipendo \
-    hardware/google/pixel-sepolicy/turbo_adapter
+    hardware/google/pixel-sepolicy/turbo_adapter/private
 endif
